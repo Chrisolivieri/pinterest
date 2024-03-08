@@ -10,6 +10,7 @@ body {
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
+    
 }
 
 .card img {
@@ -27,11 +28,15 @@ body {
     bottom: -60px;
     left: 10px;
     width: 120px;
-    padding: 10px 5px;
+    padding: 5px 5px;
     opacity: 0;
     text-align: center;
     transition: all 300ms linear;
     display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
 
 }
 
@@ -39,6 +44,7 @@ body {
     opacity: 2;
     bottom: 10px;
 }
+
 
 .save {
     border-radius: 70px;
@@ -69,10 +75,9 @@ body {
     background-color: white;
     position: absolute;
     bottom: -60px;
-    right: 60px;
+    right: 50px;
+    padding: 5px 5px;
     opacity: 0;
-    width: 40px;
-    padding: 10px 5px;
     text-align: center;
     transition: all 300ms linear;
     display: inline-block;
@@ -87,10 +92,9 @@ body {
     border-radius: 70px;
     background-color: white;
     position: absolute;
-    width: 40px;
     bottom: -60px;
     right: 10px;
-    padding: 10px 5px;
+    padding: 5px 5px;
     opacity: 0;
     text-align: center;
     transition: all 300ms linear;
